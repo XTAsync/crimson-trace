@@ -1,26 +1,38 @@
 # Crimson Trace
 
-A Capital.com-inspired trading dashboard built as an **educational market simulator**. It uses virtual funds and does not execute real trades.
+A browser-based trading simulator for exploring market interfaces and practising buy/sell decisions with virtual funds. It does not execute real trades.
 
-## Run locally
+## Features
+
+- Trading dashboard and portfolio summary
+- Asset selection and watchlist
+- Simulated buy and sell orders
+- Virtual balance and profit/loss tracking
+- Market-style chart and recent activity feed
+- Responsive desktop and mobile layout
+
+## Technology
+
+React · TypeScript · Vite
+
+## Getting Started
+
+Requirements: Node.js and npm.
 
 ```bash
+git clone https://github.com/XTAsync/crimson-trace.git
+cd crimson-trace
 npm install
 npm run dev
 ```
 
-## Current features
+## Available Scripts
 
-- Dark fintech dashboard
-- Portfolio statistics
-- Interactive asset selection
-- Watchlist
-- Simulated Buy/Sell order panel
-- Virtual balance and P&L
-- Responsive desktop/mobile layout
-- SVG market chart
-- Recent activity feed
+```bash
+npm run build
+npm run preview
+```
 
-## Next phase
+## Scope
 
-Connect a market-data provider, persist demo portfolios, add authentication, richer charting, alerts, positions, order history, and analytics.
+This is an educational prototype. Trades are simulated, and the interface should not be treated as a brokerage service or a source of live investment execution.
