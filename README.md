@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="crimson-trace logo" width="180" />
+</p>
+
 # Crimson Trace
 
 A browser-based trading simulator for exploring market interfaces and practising buy/sell decisions with virtual funds. It does not execute real trades.
